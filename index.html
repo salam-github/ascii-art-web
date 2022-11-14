@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ascii-art-web</title>
+    <link rel="stylesheet" href="static/main.css" type="text/css" />
+    <link rel="shortcut icon" href="#">
+</head>
+    <body>
+        <h1>Text To ascii</h1>
+        <main>
+            <form action="/" class="input-area" method="POST">
+               <textarea name="input" cols="50" rows="8"></textarea>
+            <br> <br>
+            <h4>Select banner style and color</h4>
+                <select name="font" class="cursor">.html
+                    <option value="standard">Standard</option>
+                    <option value="thinkertoy">Thinkertoy</option>
+                    <option value="shadow">Shadow</option>
+                </select>
+            <!-- <br> <br>
+                 <select name="docType" class="cursor">.html
+                    <option value="white">White</option>
+                    <option value="Red">Red</option>
+                    <option value="blue">Blue</option>
+                </select>  -->
+                <br> <br>
+                <input type="submit" value="Start" class="cursor">
+            </form>
+
+            <article class="form-output">
+                <section class="out">
+                    <pre class="output">{{.Out}}</pre>
+                </section>
+            </article>
+
+            <footer class="footer">
+                <p>&copy; 
+                    <a href="https://github.com/salam-github" target="blank"> ssalami</a> &
+                    <a href="https://01.gritlab.ax/git/bluesaint" target="blank">el0880</a>  &
+                    <a href="https://01.gritlab.ax/git/bluesaint" target="blank">tathienbao</a>  2022
+                    <a href="https://gritlab.ax" target="blank"> @Grit:lab</a>
+                </p>
+            </footer>
+            </main>
+    </body>
+</html>
